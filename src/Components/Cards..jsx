@@ -13,6 +13,8 @@ function Cards() {
             </div>
             <div className="items">
                 <Card />
+                <Card />
+                <Card />
             </div>
             <div className="next-btn btns">
                 <FontAwesomeIcon icon={faArrowRightLong} className="move-next-btn"/>
