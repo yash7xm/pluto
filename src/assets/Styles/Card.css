@@ -1,0 +1,29 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-img {
+    height: 60vh;
+}
+
+.item-name {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fafafa;
+}
+
+.item-price {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fafafa;
+}
+
+.item-img img {
+    height: 100%;
+}

@@ -1,0 +1,38 @@
+.cards {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 80vh;
+    padding: 0rem 2rem;
+}
+
+.btns {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+}
+
+.move-next-btn {
+    transition: transform 0.5s;
+}
+
+.move-prev-btn {
+    transition: transform 0.5s;
+}
+
+.move-prev-btn:hover {
+    cursor: pointer;
+    transform: translateX(-10px);
+}
+
+.move-next-btn:hover {
+    cursor: pointer;
+    transform: translateX(10px);
+}
+
+.items {
+    display: flex;
+    gap: 1rem;
+}

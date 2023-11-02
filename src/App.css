@@ -4,3 +4,7 @@
   box-sizing: border-box;
   background-color: #1a1a1a;
 }
+
+.content {
+  display: flex;
+}
